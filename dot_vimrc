@@ -1,0 +1,42 @@
+set encoding=utf-8
+set shiftround
+" set cursorline
+set nocompatible              " be iMproved, required
+
+set tabstop=2
+set shiftwidth=2
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+
+set number
+set lazyredraw
+set ttyfast
+set hidden
+set updatetime=300
+set shortmess+=c
+set relativenumber
+set belloff=all
+set noerrorbells
+set vb t_vb=
+set rtp +=~/.vim
+let &t_ut=''
+set virtualedit=block
+syntax on
+set noswapfile
+set showcmd
+set mouse=a
+nnoremap <SPACE> <Nop>
+let mapleader="\<Space>"
+
+set incsearch
+
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
+
+if has("autocmd")
+  filetype plugin indent on
+endif
