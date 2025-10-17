@@ -1,0 +1,14 @@
+{
+  "coc.nvim": { "branch": "master", "commit": "54079c047366d6102d034747de270632f7b84d7a" },
+  "fzf": { "branch": "master", "commit": "a0cabe021d76de5b6227d23b09808ffbe114aadd" },
+  "fzf.vim": { "branch": "master", "commit": "879db51d0965515cdaef9b7f6bdeb91c65d2829e" },
+  "gruvbox.nvim": { "branch": "main", "commit": "5e0a460d8e0f7f669c158dedd5f9ae2bcac31437" },
+  "lazy.nvim": { "branch": "main", "commit": "1ea3c4085785f460fb0e46d2fe1ee895f5f9e7c1" },
+  "lualine.nvim": { "branch": "master", "commit": "3946f0122255bc377d14a59b27b609fb3ab25768" },
+  "nvim-web-devicons": { "branch": "master", "commit": "b8221e42cf7287c4dcde81f232f58d7b947c210d" },
+  "typst.vim": { "branch": "main", "commit": "323539709e29a537ff39dfce6c05f175a8921504" },
+  "vim-commentary": { "branch": "master", "commit": "64a654ef4a20db1727938338310209b6a63f60c9" },
+  "vim-gdscript4": { "branch": "master", "commit": "36cc8a8766ca134976fb0d9571647b0fb6e5a52f" },
+  "vim-gitgutter": { "branch": "main", "commit": "488c0555e47e2aabe273c635f7dd233e985311a6" },
+  "vim-surround": { "branch": "master", "commit": "3d188ed2113431cf8dac77be61b842acb64433d9" }
+}

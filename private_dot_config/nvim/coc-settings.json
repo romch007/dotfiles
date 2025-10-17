@@ -1,0 +1,53 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "typescript",
+    "javascript",
+    "python",
+    "json",
+    "rust",
+    "go",
+    "javascriptreact",
+    "typescriptreact",
+    "html",
+    "css",
+    "lua",
+    "dart",
+    "vue"
+  ],
+  "languageserver": {
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": ["tf", "terraform"],
+      "initializationOptions": {},
+      "settings": {}
+    },
+    "ocaml": {
+      "command": "ocaml-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["ocaml"],
+      "initializationOptions": {},
+      "settings": {}
+    },
+    "tinymist": {
+      "command": "tinymist",
+      "filetypes": ["typst"],
+      "settings": {}
+    },
+    "godot": {
+      "host": "127.0.0.1",
+      "filetypes": ["gd", "gdscript"],
+      "port": 6005
+    }
+  },
+  "html.format.wrapAttributes": "force-aligned",
+  "workspace.ignoredFolders": ["$HOME", "$HOME/.cargo/**", "$HOME/.rustup/**"],
+  "suggest.removeDuplicateItems": true,
+  "pyright.inlayHints.variableTypes": false,
+  "pyright.inlayHints.parameterTypes": false,
+  "pyright.inlayHints.functionReturnTypes": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.server.path": "/home/romain/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/rust-analyzer",
+  "coc.preferences.promptInput": false
+}
